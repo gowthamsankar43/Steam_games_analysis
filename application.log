@@ -1,0 +1,9 @@
+2024-09-14 16:21:49,188 -root -INFO -Initializing Spark context
+2024-09-14 16:21:49,189 -Spark_session -INFO -Spark_Session method started
+2024-09-14 16:21:49,189 -Spark_session -INFO -master is local
+2024-09-14 16:21:55,278 -Spark_session -INFO -Spark session created
+2024-09-14 16:21:55,278 -root -INFO - Validating Spark context
+2024-09-14 16:21:55,278 -Validate -WARNING -Started the current_date method ...
+2024-09-14 16:22:00,122 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 14))]
+2024-09-14 16:22:00,122 -Validate -WARNING -Validation done
+2024-09-14 16:22:00,123 -root -INFO -Application Created

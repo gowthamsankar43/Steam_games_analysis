@@ -458,3 +458,21 @@ py4j.protocol.Py4JNetworkError: Error while sending or receiving
 2024-09-15 15:51:21,231 -Extractfile -WARNING -Dataframe is created successfully is of csv
 2024-09-15 15:51:21,232 -root -INFO -Displaying the data frame
 2024-09-15 15:51:21,813 -root -INFO -Application Created
+2024-09-24 14:34:06,883 -root -INFO -Initializing Spark context
+2024-09-24 14:34:06,884 -Spark_session -INFO -Spark_Session method started
+2024-09-24 14:34:06,884 -Spark_session -INFO -master is local
+2024-09-24 14:34:26,354 -Spark_session -INFO -Spark session created
+2024-09-24 14:34:26,355 -root -INFO - Validating Spark context
+2024-09-24 14:34:26,355 -Validate -WARNING -Started the current_date method ...
+2024-09-24 14:34:32,738 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 24))]
+2024-09-24 14:34:32,739 -Validate -WARNING -Validation done
+2024-09-24 14:34:32,739 -Extractfile -WARNING -File extraction started ....
+2024-09-24 14:35:00,617 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-24 14:35:00,617 -Extractfile -WARNING -File extraction started ....
+2024-09-24 14:35:01,582 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-24 14:35:01,582 -Extractfile -WARNING -File extraction started ....
+2024-09-24 14:35:02,438 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-24 14:35:02,438 -Extractfile -WARNING -File extraction started ....
+2024-09-24 14:37:50,684 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-24 14:37:50,684 -root -INFO -Displaying the data frame
+2024-09-24 14:37:52,000 -root -INFO -Application Created

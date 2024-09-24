@@ -7,3 +7,454 @@
 2024-09-14 16:22:00,122 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 14))]
 2024-09-14 16:22:00,122 -Validate -WARNING -Validation done
 2024-09-14 16:22:00,123 -root -INFO -Application Created
+2024-09-15 08:38:03,624 -root -INFO -Initializing Spark context
+2024-09-15 08:38:03,625 -Spark_session -INFO -Spark_Session method started
+2024-09-15 08:38:03,625 -Spark_session -INFO -master is local
+2024-09-15 08:38:22,530 -Spark_session -INFO -Spark session created
+2024-09-15 08:38:22,530 -root -INFO - Validating Spark context
+2024-09-15 08:38:22,530 -Validate -WARNING -Started the current_date method ...
+2024-09-15 08:38:28,485 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 08:38:28,485 -Validate -WARNING -Validation done
+2024-09-15 08:38:28,485 -root -INFO -Application Created
+2024-09-15 08:40:11,773 -root -INFO -Initializing Spark context
+2024-09-15 08:40:11,773 -Spark_session -INFO -Spark_Session method started
+2024-09-15 08:40:11,774 -Spark_session -INFO -master is local
+2024-09-15 08:40:18,362 -Spark_session -INFO -Spark session created
+2024-09-15 08:40:18,362 -root -INFO - Validating Spark context
+2024-09-15 08:40:18,362 -Validate -WARNING -Started the current_date method ...
+2024-09-15 08:40:23,449 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 08:40:23,449 -Validate -WARNING -Validation done
+2024-09-15 08:40:23,449 -root -INFO -Application Created
+2024-09-15 08:41:08,356 -root -INFO -Initializing Spark context
+2024-09-15 08:41:08,356 -Spark_session -INFO -Spark_Session method started
+2024-09-15 08:41:08,357 -Spark_session -INFO -master is local
+2024-09-15 08:41:14,497 -Spark_session -INFO -Spark session created
+2024-09-15 08:41:14,497 -root -INFO - Validating Spark context
+2024-09-15 08:41:14,497 -Validate -WARNING -Started the current_date method ...
+2024-09-15 08:41:19,323 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 08:41:19,323 -Validate -WARNING -Validation done
+2024-09-15 08:41:19,324 -root -INFO -Application Created
+2024-09-15 08:50:55,141 -root -INFO -Initializing Spark context
+2024-09-15 08:50:55,142 -Spark_session -INFO -Spark_Session method started
+2024-09-15 08:50:55,142 -Spark_session -INFO -master is local
+2024-09-15 08:51:01,441 -Spark_session -INFO -Spark session created
+2024-09-15 08:51:01,441 -root -INFO - Validating Spark context
+2024-09-15 08:51:01,441 -Validate -WARNING -Started the current_date method ...
+2024-09-15 08:51:06,841 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 08:51:06,841 -Validate -WARNING -Validation done
+2024-09-15 08:51:06,842 -root -INFO -Application Created
+2024-09-15 10:46:01,373 -root -INFO -Initializing Spark context
+2024-09-15 10:46:01,373 -Spark_session -INFO -Spark_Session method started
+2024-09-15 10:46:01,373 -Spark_session -INFO -master is local
+2024-09-15 10:46:07,734 -Spark_session -INFO -Spark session created
+2024-09-15 10:46:07,734 -root -INFO - Validating Spark context
+2024-09-15 10:46:07,734 -Validate -WARNING -Started the current_date method ...
+2024-09-15 10:46:12,707 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 10:46:12,707 -Validate -WARNING -Validation done
+2024-09-15 10:46:12,708 -root -INFO -Reading a file of >csv
+2024-09-15 10:46:12,708 -Extractfile -WARNING -File extraction started ....
+2024-09-15 10:48:38,165 -root -INFO -Initializing Spark context
+2024-09-15 10:48:38,165 -Spark_session -INFO -Spark_Session method started
+2024-09-15 10:48:38,165 -Spark_session -INFO -master is local
+2024-09-15 10:48:44,285 -Spark_session -INFO -Spark session created
+2024-09-15 10:48:44,285 -root -INFO - Validating Spark context
+2024-09-15 10:48:44,285 -Validate -WARNING -Started the current_date method ...
+2024-09-15 10:48:49,125 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 10:48:49,125 -Validate -WARNING -Validation done
+2024-09-15 10:48:49,125 -root -INFO -Reading a file of >csv
+2024-09-15 10:48:49,125 -Extractfile -WARNING -File extraction started ....
+2024-09-15 10:50:55,495 -root -INFO -Initializing Spark context
+2024-09-15 10:50:55,495 -Spark_session -INFO -Spark_Session method started
+2024-09-15 10:50:55,495 -Spark_session -INFO -master is local
+2024-09-15 10:51:01,977 -Spark_session -INFO -Spark session created
+2024-09-15 10:51:01,977 -root -INFO - Validating Spark context
+2024-09-15 10:51:01,977 -Validate -WARNING -Started the current_date method ...
+2024-09-15 10:51:06,838 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 10:51:06,838 -Validate -WARNING -Validation done
+2024-09-15 10:51:06,839 -root -INFO -Reading a file of >csv
+2024-09-15 10:51:06,839 -Extractfile -WARNING -File extraction started ....
+2024-09-15 10:53:23,854 -root -INFO -Initializing Spark context
+2024-09-15 10:53:23,854 -Spark_session -INFO -Spark_Session method started
+2024-09-15 10:53:23,854 -Spark_session -INFO -master is local
+2024-09-15 10:53:30,005 -Spark_session -INFO -Spark session created
+2024-09-15 10:53:30,005 -root -INFO - Validating Spark context
+2024-09-15 10:53:30,005 -Validate -WARNING -Started the current_date method ...
+2024-09-15 10:53:34,846 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 10:53:34,846 -Validate -WARNING -Validation done
+2024-09-15 10:53:34,847 -root -INFO -Reading a file of >csv
+2024-09-15 10:53:34,847 -Extractfile -WARNING -File extraction started ....
+2024-09-15 10:58:28,287 -root -INFO -Initializing Spark context
+2024-09-15 10:58:28,287 -Spark_session -INFO -Spark_Session method started
+2024-09-15 10:58:28,287 -Spark_session -INFO -master is local
+2024-09-15 10:58:34,541 -Spark_session -INFO -Spark session created
+2024-09-15 10:58:34,541 -root -INFO - Validating Spark context
+2024-09-15 10:58:34,541 -Validate -WARNING -Started the current_date method ...
+2024-09-15 10:58:39,313 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 10:58:39,313 -Validate -WARNING -Validation done
+2024-09-15 10:58:39,313 -root -INFO -Reading a file of >csv
+2024-09-15 10:58:39,314 -Extractfile -WARNING -File extraction started ....
+2024-09-15 10:59:06,446 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 10:59:06,447 -root -INFO -Displaying the data frame
+2024-09-15 10:59:06,746 -root -INFO -Application Created
+2024-09-15 11:04:09,900 -root -INFO -Initializing Spark context
+2024-09-15 11:04:09,900 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:04:09,900 -Spark_session -INFO -master is local
+2024-09-15 11:04:16,169 -Spark_session -INFO -Spark session created
+2024-09-15 11:04:16,169 -root -INFO - Validating Spark context
+2024-09-15 11:04:16,169 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:04:21,192 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:04:21,193 -Validate -WARNING -Validation done
+2024-09-15 11:04:21,193 -root -INFO -Reading a file of >csv
+2024-09-15 11:04:21,193 -Extractfile -WARNING -File extraction started ....
+2024-09-15 11:04:44,173 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 11:04:44,174 -Extractfile -WARNING -File extraction started ....
+2024-09-15 11:05:05,709 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 11:05:05,709 -root -INFO -Displaying the data frame
+2024-09-15 11:05:06,131 -root -INFO -Application Created
+2024-09-15 11:07:31,314 -root -INFO -Initializing Spark context
+2024-09-15 11:07:31,315 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:07:31,315 -Spark_session -INFO -master is local
+2024-09-15 11:07:38,031 -Spark_session -INFO -Spark session created
+2024-09-15 11:07:38,031 -root -INFO - Validating Spark context
+2024-09-15 11:07:38,031 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:07:43,135 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:07:43,135 -Validate -WARNING -Validation done
+2024-09-15 11:07:43,140 -root -INFO -Reading a file of >csv
+2024-09-15 11:07:43,140 -Extractfile -WARNING -File extraction started ....
+2024-09-15 11:08:11,149 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 11:08:21,450 -root -INFO -Initializing Spark context
+2024-09-15 11:08:21,450 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:08:21,450 -Spark_session -INFO -master is local
+2024-09-15 11:08:27,915 -Spark_session -INFO -Spark session created
+2024-09-15 11:08:27,916 -root -INFO - Validating Spark context
+2024-09-15 11:08:27,916 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:08:33,303 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:08:33,306 -Validate -WARNING -Validation done
+2024-09-15 11:08:33,306 -root -INFO -Reading a file of >csv
+2024-09-15 11:08:33,307 -Extractfile -WARNING -File extraction started ....
+2024-09-15 11:08:58,839 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 11:08:58,839 -Extractfile -WARNING -File extraction started ....
+2024-09-15 11:09:21,027 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 11:09:21,027 -root -INFO -Displaying the data frame
+2024-09-15 11:09:21,494 -root -INFO -Application Created
+2024-09-15 11:19:23,960 -root -INFO -Initializing Spark context
+2024-09-15 11:19:23,960 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:19:23,960 -Spark_session -INFO -master is local
+2024-09-15 11:19:30,235 -Spark_session -INFO -Spark session created
+2024-09-15 11:19:30,235 -root -INFO - Validating Spark context
+2024-09-15 11:19:30,236 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:19:35,253 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:19:35,253 -Validate -WARNING -Validation done
+2024-09-15 11:19:35,253 -root -INFO -Reading a file of >csv
+2024-09-15 11:19:35,254 -root -INFO -Application Created
+2024-09-15 11:23:52,112 -root -INFO -Initializing Spark context
+2024-09-15 11:23:52,112 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:23:52,112 -Spark_session -INFO -master is local
+2024-09-15 11:23:58,286 -Spark_session -INFO -Spark session created
+2024-09-15 11:23:58,286 -root -INFO - Validating Spark context
+2024-09-15 11:23:58,287 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:24:03,077 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:24:03,077 -Validate -WARNING -Validation done
+2024-09-15 11:24:08,195 -root -INFO -Initializing Spark context
+2024-09-15 11:24:08,196 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:24:08,196 -Spark_session -INFO -master is local
+2024-09-15 11:24:14,325 -Spark_session -INFO -Spark session created
+2024-09-15 11:24:14,325 -root -INFO - Validating Spark context
+2024-09-15 11:24:14,325 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:24:19,190 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:24:19,190 -Validate -WARNING -Validation done
+2024-09-15 11:24:19,190 -root -INFO -Reading a file of >csv
+2024-09-15 11:24:19,190 -root -INFO -Application Created
+2024-09-15 11:25:14,831 -root -INFO -Initializing Spark context
+2024-09-15 11:25:14,831 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:25:14,832 -Spark_session -INFO -master is local
+2024-09-15 11:25:21,124 -Spark_session -INFO -Spark session created
+2024-09-15 11:25:21,124 -root -INFO - Validating Spark context
+2024-09-15 11:25:21,124 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:25:24,106 -root -INFO -Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2024-09-15 11:25:26,992 -root -INFO -Initializing Spark context
+2024-09-15 11:25:26,992 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:25:26,992 -Spark_session -INFO -master is local
+2024-09-15 11:25:33,087 -Spark_session -INFO -Spark session created
+2024-09-15 11:25:33,088 -root -INFO - Validating Spark context
+2024-09-15 11:25:33,088 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:25:37,977 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:25:37,977 -Validate -WARNING -Validation done
+2024-09-15 11:25:37,977 -root -INFO -Reading a file of >csv
+2024-09-15 11:25:37,977 -root -INFO -Application Created
+2024-09-15 11:26:21,568 -root -INFO -Initializing Spark context
+2024-09-15 11:26:21,568 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:26:21,568 -Spark_session -INFO -master is local
+2024-09-15 11:26:28,004 -Spark_session -INFO -Spark session created
+2024-09-15 11:26:28,004 -root -INFO - Validating Spark context
+2024-09-15 11:26:28,005 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:26:32,954 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:26:32,954 -Validate -WARNING -Validation done
+2024-09-15 11:27:29,922 -root -INFO -Initializing Spark context
+2024-09-15 11:27:29,922 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:27:29,922 -Spark_session -INFO -master is local
+2024-09-15 11:27:36,112 -Spark_session -INFO -Spark session created
+2024-09-15 11:27:36,112 -root -INFO - Validating Spark context
+2024-09-15 11:27:36,112 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:27:40,867 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:27:40,869 -Validate -WARNING -Validation done
+2024-09-15 11:27:40,869 -root -INFO -Reading a file of >csv
+2024-09-15 11:27:40,869 -root -INFO -Application Created
+2024-09-15 11:28:26,257 -root -INFO -Initializing Spark context
+2024-09-15 11:28:26,258 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:28:26,258 -Spark_session -INFO -master is local
+2024-09-15 11:28:32,509 -Spark_session -INFO -Spark session created
+2024-09-15 11:28:32,509 -root -INFO - Validating Spark context
+2024-09-15 11:28:32,509 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:28:37,388 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:28:37,389 -Validate -WARNING -Validation done
+2024-09-15 11:28:37,389 -root -INFO -Reading a file of >csv
+2024-09-15 11:28:37,389 -root -INFO -Application Created
+2024-09-15 11:29:24,278 -root -INFO -Initializing Spark context
+2024-09-15 11:29:24,278 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:29:24,278 -Spark_session -INFO -master is local
+2024-09-15 11:29:30,475 -Spark_session -INFO -Spark session created
+2024-09-15 11:29:30,475 -root -INFO - Validating Spark context
+2024-09-15 11:29:30,476 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:29:35,268 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:29:35,268 -Validate -WARNING -Validation done
+2024-09-15 11:29:35,269 -root -INFO -Reading a file of >csv
+2024-09-15 11:29:35,269 -root -INFO -Reading a file of >json
+2024-09-15 11:29:35,269 -root -INFO -Reading a file of >csv
+2024-09-15 11:29:35,269 -root -INFO -Reading a file of >csv
+2024-09-15 11:29:35,269 -root -INFO -Reading a file of >csv
+2024-09-15 11:29:35,269 -root -INFO -Application Created
+2024-09-15 11:31:59,726 -root -INFO -Initializing Spark context
+2024-09-15 11:31:59,727 -Spark_session -INFO -Spark_Session method started
+2024-09-15 11:31:59,727 -Spark_session -INFO -master is local
+2024-09-15 11:32:05,866 -Spark_session -INFO -Spark session created
+2024-09-15 11:32:05,866 -root -INFO - Validating Spark context
+2024-09-15 11:32:05,866 -Validate -WARNING -Started the current_date method ...
+2024-09-15 11:32:10,681 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 11:32:10,681 -Validate -WARNING -Validation done
+2024-09-15 11:32:10,682 -root -INFO -Reading a file of >csv
+2024-09-15 11:32:10,682 -root -INFO -Reading a file of >json
+2024-09-15 11:32:10,682 -root -INFO -Reading a file of >csv
+2024-09-15 11:32:10,682 -root -INFO -Reading a file of >csv
+2024-09-15 11:32:10,682 -Extractfile -WARNING -File extraction started ....
+2024-09-15 11:35:05,861 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 11:35:06,213 -root -INFO -Application Created
+2024-09-15 15:18:19,734 -root -INFO -Initializing Spark context
+2024-09-15 15:18:19,735 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:18:19,735 -Spark_session -INFO -master is local
+2024-09-15 15:18:27,339 -Spark_session -INFO -Spark session created
+2024-09-15 15:18:27,340 -root -INFO - Validating Spark context
+2024-09-15 15:18:27,340 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:18:33,471 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:18:33,471 -Validate -WARNING -Validation done
+2024-09-15 15:18:33,473 -root -INFO -Reading a file of >csv
+2024-09-15 15:18:33,473 -root -INFO -Reading a file of >json
+2024-09-15 15:18:33,473 -root -INFO -Reading a file of >csv
+2024-09-15 15:18:33,473 -root -INFO -Reading a file of >csv
+2024-09-15 15:19:40,490 -root -INFO -Initializing Spark context
+2024-09-15 15:19:40,490 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:19:40,490 -Spark_session -INFO -master is local
+2024-09-15 15:19:46,654 -Spark_session -INFO -Spark session created
+2024-09-15 15:19:46,654 -root -INFO - Validating Spark context
+2024-09-15 15:19:46,655 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:19:51,517 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:19:51,517 -Validate -WARNING -Validation done
+2024-09-15 15:19:51,517 -root -INFO -Reading a file of >csv
+2024-09-15 15:19:51,518 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:21:13,785 -root -INFO -Initializing Spark context
+2024-09-15 15:21:13,785 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:21:13,785 -Spark_session -INFO -master is local
+2024-09-15 15:21:19,889 -Spark_session -INFO -Spark session created
+2024-09-15 15:21:19,889 -root -INFO - Validating Spark context
+2024-09-15 15:21:19,889 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:21:24,759 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:21:24,759 -Validate -WARNING -Validation done
+2024-09-15 15:21:24,760 -root -INFO -Reading a file of >csv
+2024-09-15 15:21:24,761 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:22:27,487 -root -INFO -Initializing Spark context
+2024-09-15 15:22:27,487 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:22:27,487 -Spark_session -INFO -master is local
+2024-09-15 15:22:33,747 -Spark_session -INFO -Spark session created
+2024-09-15 15:22:33,747 -root -INFO - Validating Spark context
+2024-09-15 15:22:33,747 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:22:38,548 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:22:38,548 -Validate -WARNING -Validation done
+2024-09-15 15:22:38,548 -root -INFO -Reading a file of >csv
+2024-09-15 15:22:38,549 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:25:39,699 -root -INFO -Initializing Spark context
+2024-09-15 15:25:39,699 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:25:39,699 -Spark_session -INFO -master is local
+2024-09-15 15:25:46,047 -Spark_session -INFO -Spark session created
+2024-09-15 15:25:46,047 -root -INFO - Validating Spark context
+2024-09-15 15:25:46,047 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:25:50,896 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:25:50,896 -Validate -WARNING -Validation done
+2024-09-15 15:25:50,896 -root -INFO -Reading a file of >csv
+2024-09-15 15:25:50,896 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:28:48,303 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:28:48,303 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:31:50,785 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:31:50,785 -root -INFO -Displaying the data frame
+2024-09-15 15:31:51,264 -root -INFO -Application Created
+2024-09-15 15:32:46,889 -root -INFO -Initializing Spark context
+2024-09-15 15:32:46,890 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:32:46,890 -Spark_session -INFO -master is local
+2024-09-15 15:32:53,249 -Spark_session -INFO -Spark session created
+2024-09-15 15:32:53,250 -root -INFO - Validating Spark context
+2024-09-15 15:32:53,250 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:32:54,871 -root -INFO -Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2024-09-15 15:32:56,893 -root -ERROR -Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Spark\python\pyspark\context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Spark\python\pyspark\context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1321, in __call__
+    answer = self.gateway_client.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1053, in send_command
+    response = self.send_command(command, binary=binary)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1036, in send_command
+    connection = self._get_connection()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 284, in _get_connection
+    connection = self._create_new_connection()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 291, in _create_new_connection
+    connection.connect_to_java_server()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 438, in connect_to_java_server
+    self.socket.connect((self.java_address, self.java_port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2024-09-15 15:33:04,759 -root -INFO -Initializing Spark context
+2024-09-15 15:33:04,760 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:33:04,760 -Spark_session -INFO -master is local
+2024-09-15 15:33:11,000 -Spark_session -INFO -Spark session created
+2024-09-15 15:33:11,000 -root -INFO - Validating Spark context
+2024-09-15 15:33:11,000 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:33:15,864 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:33:15,864 -Validate -WARNING -Validation done
+2024-09-15 15:33:15,864 -root -INFO -Reading a file of >csv
+2024-09-15 15:33:15,865 -root -INFO -Application Created
+2024-09-15 15:34:17,249 -root -INFO -Initializing Spark context
+2024-09-15 15:34:17,249 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:34:17,249 -Spark_session -INFO -master is local
+2024-09-15 15:34:23,447 -Spark_session -INFO -Spark session created
+2024-09-15 15:34:23,447 -root -INFO - Validating Spark context
+2024-09-15 15:34:23,447 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:34:28,287 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:34:28,287 -Validate -WARNING -Validation done
+2024-09-15 15:34:28,287 -root -INFO -Reading a file of >csv
+2024-09-15 15:34:28,287 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:34:51,136 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:34:51,136 -root -INFO -Displaying the data frame
+2024-09-15 15:34:51,428 -root -INFO -Application Created
+2024-09-15 15:37:09,912 -root -INFO -Initializing Spark context
+2024-09-15 15:37:09,912 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:37:09,912 -Spark_session -INFO -master is local
+2024-09-15 15:37:16,261 -Spark_session -INFO -Spark session created
+2024-09-15 15:37:16,262 -root -INFO - Validating Spark context
+2024-09-15 15:37:16,262 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:37:21,158 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:37:21,158 -Validate -WARNING -Validation done
+2024-09-15 15:37:21,159 -root -INFO -Reading a file of >csv
+2024-09-15 15:37:21,159 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:37:45,590 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:37:45,590 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:37:46,546 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:37:46,546 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:37:47,694 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:37:47,694 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:40:21,304 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:40:21,305 -root -INFO -Displaying the data frame
+2024-09-15 15:48:29,063 -root -INFO -Initializing Spark context
+2024-09-15 15:48:29,063 -Spark_session -INFO -Spark_Session method started
+2024-09-15 15:48:29,064 -Spark_session -INFO -master is local
+2024-09-15 15:48:35,356 -Spark_session -INFO -Spark session created
+2024-09-15 15:48:35,357 -root -INFO - Validating Spark context
+2024-09-15 15:48:35,357 -Validate -WARNING -Started the current_date method ...
+2024-09-15 15:48:40,159 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 15))]
+2024-09-15 15:48:40,159 -Validate -WARNING -Validation done
+2024-09-15 15:48:40,159 -root -INFO -Reading a file of >csv
+2024-09-15 15:48:40,159 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:49:03,576 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:49:03,576 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:49:04,435 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:49:04,435 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:49:05,429 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:49:05,429 -Extractfile -WARNING -File extraction started ....
+2024-09-15 15:51:21,231 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-15 15:51:21,232 -root -INFO -Displaying the data frame
+2024-09-15 15:51:21,813 -root -INFO -Application Created

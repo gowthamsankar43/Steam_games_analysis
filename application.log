@@ -476,3 +476,150 @@ py4j.protocol.Py4JNetworkError: Error while sending or receiving
 2024-09-24 14:37:50,684 -Extractfile -WARNING -Dataframe is created successfully is of csv
 2024-09-24 14:37:50,684 -root -INFO -Displaying the data frame
 2024-09-24 14:37:52,000 -root -INFO -Application Created
+2024-09-29 12:29:23,481 -root -INFO -Initializing Spark context
+2024-09-29 12:29:23,481 -Spark_session -INFO -Spark_Session method started
+2024-09-29 12:29:23,481 -Spark_session -INFO -master is local
+2024-09-29 12:29:33,227 -Spark_session -INFO -Spark session created
+2024-09-29 12:29:33,227 -root -INFO - Validating Spark context
+2024-09-29 12:29:33,227 -Validate -WARNING -Started the current_date method ...
+2024-09-29 12:29:36,101 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 29))]
+2024-09-29 12:29:36,101 -Validate -WARNING -Validation done
+2024-09-29 12:29:36,101 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:29:36,953 -root -INFO -Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2024-09-29 12:29:39,033 -root -ERROR -Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Spark\python\pyspark\context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Spark\python\pyspark\context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1321, in __call__
+    answer = self.gateway_client.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1053, in send_command
+    response = self.send_command(command, binary=binary)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1036, in send_command
+    connection = self._get_connection()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 284, in _get_connection
+    connection = self._create_new_connection()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 291, in _create_new_connection
+    connection.connect_to_java_server()
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 438, in connect_to_java_server
+    self.socket.connect((self.java_address, self.java_port))
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\Asus\PycharmProjects\pythonProject\.venv\lib\site-packages\py4j\clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+2024-09-29 12:30:03,862 -root -INFO -Initializing Spark context
+2024-09-29 12:30:03,863 -Spark_session -INFO -Spark_Session method started
+2024-09-29 12:30:03,863 -Spark_session -INFO -master is local
+2024-09-29 12:30:06,739 -Spark_session -INFO -Spark session created
+2024-09-29 12:30:06,739 -root -INFO - Validating Spark context
+2024-09-29 12:30:06,739 -Validate -WARNING -Started the current_date method ...
+2024-09-29 12:30:09,010 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 29))]
+2024-09-29 12:30:09,010 -Validate -WARNING -Validation done
+2024-09-29 12:30:09,010 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:30:19,558 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 12:30:19,558 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:30:19,974 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 12:30:19,974 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:30:20,479 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 12:30:20,479 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:31:34,013 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 12:31:34,013 -root -INFO -Displaying the data frame
+2024-09-29 12:31:34,409 -root -INFO -Application Created
+2024-09-29 12:35:46,635 -root -INFO -Initializing Spark context
+2024-09-29 12:35:46,635 -Spark_session -INFO -Spark_Session method started
+2024-09-29 12:35:46,635 -Spark_session -INFO -master is local
+2024-09-29 12:35:54,308 -Spark_session -INFO -Spark session created
+2024-09-29 12:35:54,308 -root -INFO - Validating Spark context
+2024-09-29 12:35:54,308 -Validate -WARNING -Started the current_date method ...
+2024-09-29 12:35:56,619 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 29))]
+2024-09-29 12:35:56,619 -Validate -WARNING -Validation done
+2024-09-29 12:37:45,857 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:37:47,528 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 12:44:41,255 -root -INFO -Initializing Spark context
+2024-09-29 12:44:41,256 -Spark_session -INFO -Spark_Session method started
+2024-09-29 12:44:41,256 -Spark_session -INFO -master is local
+2024-09-29 12:44:44,252 -Spark_session -INFO -Spark session created
+2024-09-29 12:44:44,252 -root -INFO - Validating Spark context
+2024-09-29 12:44:44,252 -Validate -WARNING -Started the current_date method ...
+2024-09-29 12:44:46,602 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 29))]
+2024-09-29 12:44:46,602 -Validate -WARNING -Validation done
+2024-09-29 12:45:13,345 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:45:15,006 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 12:45:36,207 -root -INFO -Initializing Spark context
+2024-09-29 12:45:36,207 -Spark_session -INFO -Spark_Session method started
+2024-09-29 12:45:36,207 -Spark_session -INFO -master is local
+2024-09-29 12:45:39,082 -Spark_session -INFO -Spark session created
+2024-09-29 12:45:39,082 -root -INFO - Validating Spark context
+2024-09-29 12:45:39,082 -Validate -WARNING -Started the current_date method ...
+2024-09-29 12:45:41,387 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 29))]
+2024-09-29 12:45:41,387 -Validate -WARNING -Validation done
+2024-09-29 12:45:59,260 -Extractfile -WARNING -File extraction started ....
+2024-09-29 12:46:23,163 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 12:46:29,571 -root -INFO -Displaying the data frame
+2024-09-29 12:46:39,829 -root -INFO -Application Created
+2024-09-29 13:01:27,868 -root -INFO -Initializing Spark context
+2024-09-29 13:01:27,868 -Spark_session -INFO -Spark_Session method started
+2024-09-29 13:01:27,868 -Spark_session -INFO -master is local
+2024-09-29 13:01:30,740 -Spark_session -INFO -Spark session created
+2024-09-29 13:01:30,740 -root -INFO - Validating Spark context
+2024-09-29 13:01:30,740 -Validate -WARNING -Started the current_date method ...
+2024-09-29 13:01:33,200 -Validate -WARNING -validating spark with current date[Row(current_date()=datetime.date(2024, 9, 29))]
+2024-09-29 13:01:33,200 -Validate -WARNING -Validation done
+2024-09-29 13:01:33,201 -Extractfile -WARNING -File extraction started ....
+2024-09-29 13:01:34,924 -Extractfile -WARNING -Dataframe is created successfully is of csv
+2024-09-29 13:01:34,924 -root -INFO -Displaying the data frame
+2024-09-29 13:01:35,291 -root -INFO -Application Created

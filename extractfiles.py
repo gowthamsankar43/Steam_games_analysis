@@ -16,6 +16,7 @@ def extractfiles(spark, file_dir, file_format, header, inferSchema):
                 file_dir)
         elif file_format == 'json':
             df = spark.read.format(file_format).load(file_dir)
+            df.show()
 
     except Exception as e:
         logger.error("An error occured at extractfiles", e)

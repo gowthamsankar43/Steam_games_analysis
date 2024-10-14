@@ -49,8 +49,8 @@ def main():
         #                         inferSchema=inferSchema)
         df_gamesmetadata = extractfiles(spark=spark, file_dir=olap_file_dir[1], file_format=file_format, header=header,
                                         inferSchema=inferSchema)
-        # df_games = extractfiles(spark=spark, file_dir=olap_file_dir[0], file_format=file_format, header=header,
-        #                         inferSchema=inferSchema)
+        df_games = extractfiles(spark=spark, file_dir=olap_file_dir[0], file_format=file_format, header=header,
+                               inferSchema=inferSchema)
         # df_recommendations = extractfiles(spark=spark, file_dir=olap_file_dir[2], file_format=file_format,
         #                                   header=header,
         #                                   inferSchema=inferSchema)
@@ -58,7 +58,7 @@ def main():
         logging.info("Displaying the data frame")
         # display_df(df_users)
         df_gamesmetadata.show()
-        # display_df(df_games)
+        display_df(df_games)
         # display_df(df_recommendations)
 
     except Exception as e:
